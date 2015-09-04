@@ -11,8 +11,17 @@ function callHP(err, data){
   if(err){
 	throw err;
   }
-  headerParser(data, header);
+  headerParser(data, header, function(transformer){
+  	console.dir(transformer)
+  });
 };
+
+// headerParser.on('parseDone', function(){
+// 	console.log('hey the event emitter works!')
+// });
+
+
+
 
 
 
