@@ -11,7 +11,7 @@ function callHP(err, data){
   if(err){
 	throw err;
   }
-  headerParser(data, header, transformer);
+  headerParser(data, header, fs, transformer);
 };
 
 // headerParser.on('parseDone', function(){
