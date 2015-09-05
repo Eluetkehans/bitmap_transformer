@@ -6,7 +6,7 @@ var transformer = require(__dirname + "/lib/transformer");
 var saveFile = require(__dirname + "/lib/save_file");
 var header = {};
 
-fs.readFile(__dirname + '/img/non-palette-bitmap.bmp', callHP); 
+fs.readFile(__dirname + '/img/' + process.argv[2], callHP); 
 
 function callHP(err, data){
   if(err){
