@@ -14,7 +14,3 @@ function callHP(err, data){
   }
   headerParser(data, header, fs, transformer, saveFile);
 };
-
-// headerParser.on('parseDone', function(){
-// 	console.log('hey the event emitter works!')
-// });
