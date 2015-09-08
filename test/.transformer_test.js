@@ -14,3 +14,8 @@ TODO bit map file header parser.
     (we will probably have to use this to find the pallet)
 */
 
+// Check endiannes of machine for extra points
+
+// Detect and work with pallete data for extra points
+
+// deal with any sized image for extra points
