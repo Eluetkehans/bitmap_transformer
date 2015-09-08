@@ -1,6 +1,5 @@
 'use strict';
 var fs = require('fs');
-
 var headerParser = require(__dirname + "/lib/header_parser.js");
 var transformer = require(__dirname + "/lib/transformer");
 var saveFile = require(__dirname + "/lib/save_file");
